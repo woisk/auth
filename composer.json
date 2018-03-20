@@ -1,0 +1,31 @@
+{
+    "name": "woisk/auth",
+    "description": "this woisk account auth ",
+    "autoload": {
+      "psr-4": {
+        "Woisk\\Auth\\": "src/"
+      }
+    },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Woisk\\Auth\\Providers\\AuthServiceProvider",
+        "Woisk\\Auth\\Providers\\EventServiceProvider"
+      ],
+      "aliases": {
+
+      }
+    }
+  },
+    "authors": [
+        {
+            "name": "lifenglin",
+            "email": "bolelin@126.com"
+        }
+    ],
+    "require": {
+      "tymon/jwt-auth": "1.0.0-rc.2"
+    },
+    "minimum-stability": "dev" 
+
+}
